@@ -6,9 +6,11 @@ export function Header() {
     <header className="flex w-full h-[72px] px-8 justify-between items-center bg-white/70 shadow-[0_4px_8px_0_rgba(54,89,226,0.08)] backdrop-blur-[8px]">
       <div className="flex items-center gap-3">
         <Link to="/" aria-label="Home" className="inline-flex items-center">
-          <div className="w-[85px] h-[45px] border-2 border-black flex items-center justify-center text-xs font-bold">
-            LOGO
-          </div>
+          <img
+            src="https://media.licdn.com/dms/image/sync/v2/D5627AQEExz9IHVAMhQ/articleshare-shrink_800/B56Zk9_A22H8AI-/0/1757681553241?e=2147483647&v=beta&t=EGoaQOgT6pB0JcjJXFx9Si9eDM5DcyQ-T5o27C5CzCw"
+            alt="Logo"
+            className="h-[45px] w-auto object-contain"
+          />
         </Link>
       </div>
 

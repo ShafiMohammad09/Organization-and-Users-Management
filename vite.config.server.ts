@@ -32,6 +32,9 @@ export default defineConfig({
         // External dependencies that should not be bundled
         "express",
         "cors",
+        "drizzle-orm",
+        "@neondatabase/serverless",
+        "ws",
       ],
       output: {
         format: "es",

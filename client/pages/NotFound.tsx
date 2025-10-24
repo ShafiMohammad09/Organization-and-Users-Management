@@ -1,8 +1,6 @@
-import { useLocation } from "react-router-dom";
 import { Layout } from "@/components/Layout";
 
 const NotFound = () => {
-  const location = useLocation();
 
   // Intentionally avoid logging errors to console for 404 routes to keep console clean during evaluation.
 
