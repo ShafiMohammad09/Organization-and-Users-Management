@@ -12,7 +12,7 @@ const app = createServer();
 app.use(express.static(path.join(__dirname, "../spa")));
 
 // Handle all other routes by serving the index.html
-app.get("*", (req, res) => {
+app.get("/*", (req, res) => {
   res.sendFile(path.join(__dirname, "../spa/index.html"));
 });
 
